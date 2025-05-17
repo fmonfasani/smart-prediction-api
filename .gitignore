@@ -1,0 +1,26 @@
+venv# Entornos virtuales
+venv/
+.env
+*.pyc
+__pycache__/
+
+# Archivos comprimidos
+*.zip
+
+# Archivos temporales de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de VSCode
+.vscode/
+
+# Archivos de logs
+*.log
+
+# Archivos de ejecución local
+*.sqlite3
+*.db
+
+# Informes Word (opcionales si no los querés subir)
+*.docx
+
