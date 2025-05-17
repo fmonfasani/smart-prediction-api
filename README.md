@@ -52,3 +52,59 @@ Explicación técnica con imágenes, arquitectura, captura de código y resultad
 Estilo profesional, para mostrar a inversores o empresas.
 
 ✅ README técnico + comandos + scripts de prueba (test_workflow.py)
+
+Parte 1: Backend FastAPI + ML + Blockchain (completo y funcional)
+Incluye:
+CRUD completo de:
+
+✅ Usuarios (/users)
+
+✅ Predicciones (/predictions)
+
+✅ Logs de actividad (/logs)
+
+Endpoints de ML y contrato inteligente:
+
+/predict → hace predicción usando el modelo.
+
+/trigger → envía predicción a la blockchain.
+
+/status → consulta el estado actual del contrato.
+
+Autenticación JWT:
+
+/auth/register
+
+/auth/login
+
+Base de datos SQLite (app.db) lista o vacía.
+
+Swagger automático disponible en http://localhost:8000/docs
+
+.env con claves (puede ser editado).
+
+ML: modelo LogisticRegression, guardado como model.pkl
+
+⚙️ Herramientas extra incluidas:
+start_backend.bat: ejecuta FastAPI en Windows.
+
+.vscode/launch.json: corre el backend con F5 en VSCode.
+
+install.bat: instala dependencias + entrena el modelo.
+
+reset_db.bat: borra y reinicia la base SQLite.
+
+También incluye:
+README.md con instrucciones claras.
+
+🧠 Primer avance del documento Word INFORME_PROYECTO.docx, con:
+
+Introducción
+
+Estructura y flujo del sistema
+
+Comparación DB vs Blockchain
+
+Capturas y ejemplos
+
+Listo para presentación o exportar a PDF

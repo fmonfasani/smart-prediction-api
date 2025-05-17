@@ -1,0 +1,1 @@
+# Aquí irían los esquemas Pydantic para User, Prediction, Log, etc.
