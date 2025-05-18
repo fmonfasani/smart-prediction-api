@@ -1,0 +1,5 @@
+[2025-05-17 18:25:51] Modelo entrenado con prueba.csv | Accuracy: 0.0000
+[2025-05-17 18:29:52] Modelo entrenado con multiclass_classification.csv | Accuracy: 0.2667
+[2025-05-17 18:31:17] Modelo entrenado con noisy_dataset.csv | Accuracy: 0.5250
+[2025-05-17 18:31:27] Modelo entrenado con simple_threshold.csv | Accuracy: 1.0000
+[2025-05-17 18:31:34] Modelo entrenado con binary_classification.csv | Accuracy: 0.3500

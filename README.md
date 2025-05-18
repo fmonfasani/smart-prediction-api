@@ -108,3 +108,17 @@ Comparación DB vs Blockchain
 Capturas y ejemplos
 
 Listo para presentación o exportar a PDF
+
+Pasos:
+
+Integrar la predicción con el contrato inteligente (que /predict llame al contrato).
+
+Testear y validar el deploy del contrato en contract/deploy.py.
+
+Crear una interfaz web mínima para probar el flujo end-to-end (FastAPI + Swagger o frontend mínimo).
+
+Auditar logs o guardar predicciones en logs.log o en la DB app.db.
+
+Mejorar y documentar el pipeline de predicción para producción.
+
+Hacer pruebas automáticas con test/test_workflow.py.
